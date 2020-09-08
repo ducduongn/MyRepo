@@ -1,5 +1,5 @@
 
 # UET Semester 2020 | INT 3306 N1
 This repository is belong to Nguyen Duc Duong.
-Under the collaboration of:
-
+Under the collaboration of:  
+[Nguyễn Ngọc Hiếu](https://github.com/NNHieu)
