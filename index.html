@@ -3,7 +3,117 @@
 
 <head>
         <title>Web development</title>
-        <link rel="stylesheet" href="style.css">
+        <!-- <link rel="stylesheet" href="style.css"> -->
+
+        <style>
+                * {
+                        margin: 0;
+                }
+
+                html,
+                body,
+                .flex-box {
+                        height: 100%;
+                }
+
+                .topnav {
+                        background-color: #333;
+                        height: 50px;
+                        top: 0;
+                        width: 100%;
+                        /* position: fixed; */
+                        left: 0;
+                }
+
+                .topnav a {
+                        float: right;
+                        display: block;
+                        color: #f2f2f2;
+                        text-align: center;
+                        padding: 14px 16px;
+                        text-decoration: none;
+                }
+
+                .sidenav {
+                        top: 101px;
+                        width: 300px;
+                        height: 100%;
+                        display: none;
+                        height: 100%;
+                        left: 0;
+                        background-color: #f1f1f1;
+                }
+
+
+                .sidenav ul {
+                        list-style-type: none;
+                        margin: 0;
+                        padding: 0;
+                        width: 300px;
+                        height: 100%;
+                        position: relative;
+                        overflow: auto;
+                }
+
+                .sidenav a:hover {
+                        display: block;
+                        padding: 8px 16px;
+                        color: white;
+                        text-decoration: none;
+                        background-color: #4CAF50;
+                }
+
+                .sidenav a {
+                        display: block;
+                        color: #000;
+                        padding: 8px 16px;
+                        text-decoration: none;
+                        transition-duration: 0.4s;
+                        cursor: pointer;
+                }
+
+                .button {
+                        top: 50px;
+                        background-color: #4CAF50;
+                        /* Green */
+                        border: none;
+                        color: white;
+                        padding: 16px 32px;
+                        text-align: center;
+                        text-decoration: none;
+                        display: inline-block;
+                        font-size: 16px;
+                        transition-duration: 0.4s;
+                        cursor: pointer;
+
+                }
+
+                .button:hover {
+                        opacity: 0.9;
+                        background-color: #09FC00;
+                }
+
+                .button:hover+div .sidenav {
+                        display: block;
+                }
+
+                .sidenav:hover {
+                        display: block;
+                        background-color: #f1f1f1;
+                        height: 100%;
+                }
+
+
+                .content {
+                        margin-left: 300px;
+                        padding: 20px;
+                        margin-top: 50px;
+                }
+
+                .flex-box {
+                        display: flex;
+                }
+        </style>
 </head>
 
 <body>
@@ -28,15 +138,15 @@
 
                                         <a href="/MyRepo/html/paragraphs.html">Paragraphs</a>
 
-                                        <a href="/MyRepo/html/paragraphs.html">Links</a>
+                                        <a href="/MyRepo/html/links.html">Links</a>
 
-                                        <a href="/MyRepo/html/paragraphs.html">Images</a>
+                                        <a href="/MyRepo/html/images.html">Images</a>
 
-                                        <a href="/MyRepo/html/paragraphs.html">Lists</a>
+                                        <a href="/MyRepo/html/lists.html">Lists</a>
 
-                                        <a href="/MyRepo/html/paragraphs.html">Tables</a>
+                                        <a href="/MyRepo/html/tables.html">Tables</a>
 
-                                        <a href="/MyRepo/html/paragraphs.html">Forms</a>
+                                        <a href="/MyRepo/html/forms.html">Forms</a>
                                 </li>
                         </ul>
                 </div>
